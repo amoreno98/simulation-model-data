@@ -1,0 +1,47 @@
+{
+	map = {
+		map1 = {
+			name = "Linea y L"
+			url = "https://www.openstreetmap.org/export#map=16/23.1399/-82.3868",
+			coordinates = "-82.3929, -82.3829, 23.1357, 23.1434"
+		},
+		map2 = {
+			name = "Linea y 12"
+			url = "https://www.openstreetmap.org/#map=18/23.13313/-82.40477",
+			coordinates = "-82.40773, -82.40198, 23.13141, 23.13563"
+		}
+		
+	},
+	weather = {
+		url = "https://openweathermap.org/city/3553478"
+	},
+	traffic_conditions = {
+		maximum_cycle = 120,
+		minimum_cycle = 35,
+		distance_between_vehicles = 1,
+		speed_people = 3,
+		speed_vehicle = {
+			car = {
+				primary = 90,
+				secondary = 100,
+				highway = 100
+			},
+			bus = {
+				primary = 90,
+				secondary = 90,
+				highway = 100
+			},
+			articulated = {
+				primary = 80,
+				secondary = 90,
+				highway = 90
+			},
+			
+		}
+	},
+	probabilities = {
+		red_violation = 0.0005,
+		stop_violation = 0.002,
+		obstacles = 0.02
+	}
+}
